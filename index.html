@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Banking System by Solomon @KIngSol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="header">
+             
+            <h1> <i  class="fa-solid fa-bank"></i>Simple Banking System</h1>
+            <p>Manage Your Finances With Ease</p>
+        </div>
+    </nav>
+    <section class="balance">
+        <h2>Current Balance</h2>
+        <span>$1000.00</span>
+    </section>
+    <article class="cont">
+        <div class="container">
+            <div class="head">
+                
+                  <i  class="fa-solid fa-exchange"></i>
+                 
+                    <i  class="fa-solid fa-arrow-up"></i>
+                    <i  class="fa-solid fa-money-bill-transfer"></i>
+                      
+                        <i  class="fa-solid fa-dollar-sign"></i>
+                <h3>Deposit Money</h3>
+            </div>
+            <div class="input-section">
+                <form action="">
+                <span>Amount To Deposit</span>
+                <input type="text" name="amt" id="amt" required placeholder="Enter amount" class="input-field">
+                <input type="submit" value="Deposit" class="btn">
+                </form>
+            </div>
+        </div>
+         <div class="container">
+            <div class="head">
+               <i  class="fa-solid fa-arrow-down"></i>
+                <h3>Withdraw Money</h3>
+            </div>
+            <div class="input-section">
+                <form action="">
+                <span>Amount To Withdraw</span>
+                <input type="number" name="wth" id="wth" required class="input-field" placeholder="Enter amount">
+                <input type="submit" value="Withdraw" class="btn wth-btn">
+                </form>
+            </div>
+        </div>
+         <div class="container">
+            <div class="head">
+            <i  class="fa-solid fa-money-bill-transfer"></i>
+                <h3>Transfer Money</h3>
+            </div>
+            <div class="input-section">
+                <form action="">
+                <span>To Account Number</span>
+                <input type="text" name="amt" id="amt" required class="input-field" placeholder="Enter Account number">
+                 <span>Amount to Transfer</span>
+                <input type="number" name="trt" id="trt" required class="input-field" placeholder="Amount to Transfer">
+                
+                <input type="submit" value="Transfer" class="btn trt-btn">
+                </form>
+            </div>
+        </div>
+         <div class="container">
+            <div class="head">
+               <i  class="fa-solid fa-money-check-dollar"></i>
+                <h3>Account Information</h3>
+            </div>
+            <div class="input-section">
+                <form action="">
+                <span>Account Number</span>
+                <input type="text" name="act" id="act"  class="input-field" readonly value="8165164319">
+                <span>Account holder</span>
+ <input type="text" name="act" id="act"  class="input-field"  readonly value="Solomon KIngSol">
+               
+  <span>Current Balance</span>
+ <input type="text" name="act" id="act"  class="input-field"  readonly value="$1000.00">
+               
+                <input type="submit" value="REFRESH BALANCE" class="btn btn-balance">
+                </form>
+            </div>
+        </div>
+        
+    </article>
+    <div class="bash">
+        <div class="rct">
+            <h4>Recent Transaction</h4>
+        </div>
+        <div class="details">
+            <div class="hst">
+                 <span style="font-weight: 900;">initial-balance</span>
+                <p style="font-size: small;"> 1/1/2025, 4:16:55PM</p>
+            </div>
+            <div class="amt">
+                <h6>+$1000.00</h6>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
