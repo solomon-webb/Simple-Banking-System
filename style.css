@@ -8,7 +8,7 @@
 body {
 background-color: #6E62C2;
 
-margin: 0 20px;
+margin: 0 15px;
 }
 .nav  {
     position: fixed;
@@ -64,6 +64,13 @@ padding: 30px;
    
   padding: 20px;
     width: 280px;
+}
+.head i {
+   font-size: 2em;
+   text-align: center;
+   display: block;
+   margin-bottom: 10px;
+   color: #1A8FEC;
 }
 .head h3 {
     text-align: center;
@@ -125,11 +132,22 @@ padding: 30px;
  border-radius: 10px;
  padding: 30px;
 }
-.rct h4 {
+.rct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.rct h4 i {
     text-align: center;
     font-weight: 900;
     font-size: 1.1em;
 padding-bottom: 10px;
+}
+.rct i {
+    
+    color: #46A34A;
 }
 .details {
     display: flex;
@@ -141,6 +159,6 @@ h5 {
 }
 @media screen and (max-width: 470px) {
     .header h1 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
